@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+  <div class="container">
+      <div class="menu">
+        <img src="images/logos/mstpay1.png" class="logo">
+    </div>
+  </div>
+    <main>
+        <section class="first-section">
+            
+            <div class="login">
+                <div class="login-container">
+                    <table>
+                        <tr>
+                            <td>
+                                <p class="header-text">Welcome Back</p>
+                            </td>
+                        </tr>
+                        <div class="form-body">
+                            <tr>
+                                <td>
+                                    <p class="sub-text">Login to continue</p>
+                                </td>
+                            </tr>
+                            <form action="" method="post">
+                                
+                                <tr>
+                                    <td class="label-td">
+                                        <input type="email" name="user-email" class="input-text" placeholder="Email Address" required>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="label-td">
+                                        <input type="Password" name="userpassword" class="input-text" placeholder="Password" required>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                <td>
+                                    <br>
+                                        <?php echo $error ?>
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <td>
+                                        <input type="submit" value="Login" class="login-btn btn-primary btn">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <br>
+                                        <label for="" class="sub-text" style="font-weight: 280;">Don't have an account&#63; </label>
+                                        <a href="sign-up.html" class="hover-link1 non-style-link">Sign Up</a>
+                                        <br><br><br>
+                                    </td>
+                                </tr> 
+                            </form>
+                        </div>
+                    </table>
+                </div>
+
+            </div>
+            
+            <div class="login-image">
+                <img src="images/background/login.jpg">
+                
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
