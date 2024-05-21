@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+   font-family: "Montserrat";
+
+
+/*  font-family: Arial, sans-serif;*/
+  box-sizing: border-box;
+  /*background-color: rgba(116, 116, 122, 0.8);*/
+}
+
+/*navigation*/
+.nav-item a{
+  color: #000000;
+  font-weight: normal;
+}
+/*navigation*/
+
+/*intro*/
+.intro{
+  height: 400px;
+  background-image: url("../images/background/payment.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h4{
+  padding-top: 20%;
+  font-weight: bold;
+  color: white;
+}
+/*intro*/
+
+/*why*/
+.why{
+  background-color: white;
+  height: 300px;
+}
+
+.why h3{
+  padding-top: 2%;
+  font-weight: bolder;
+}
+
+/*expo*/
+.expo{
+  height: 200px;
+  background-color: #3399ff;
+}
+
+.expo h3{
+  padding-top: 2%;
+  color: white;
+  font-weight:bolder;
+}
+
+.details{
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+}
