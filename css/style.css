@@ -14,6 +14,8 @@
   color: #000000;
   font-weight: normal;
 }
+
+
 /*navigation*/
 
 /*about styling*/
@@ -138,4 +140,62 @@ input[type=number]{
 }
 
 /*starting*/
+
+/*responsive mode*/
+/*phone view*/
+@media screen and (max-width: 480px) {
+  body {
+/*    background-color: lightgreen;*/
+  }
+
+  .content h3{
+    font-size: 15px;
+  }
+
+  .action {
+    width: 90%;
+  }
+
+  .about{
+    height: 750px;
+  }
+
+  .explanation{
+    font-size: 14px;
+  }
+
+  .services{
+    height: 430px;
+  }
+
+  .payment{
+    height: 1350px;
+  }
+
+  .card{
+    margin-bottom: 5%;
+    margin-left: 5%;
+  }
+
+  .starting{
+    padding-top: 3%;
+    height: 130px;
+  }
+
+  .starting h3{
+    font-size: 15px;
+  }
+
+  .starting h5 {
+/*    padding-right: 30%;*/
+padding-left: 10%;
+  }
+
+  .account{
+    width: 50%;
+    margin-right: 70%;
+    margin-left: 20%;
+  }
+}
+
 
