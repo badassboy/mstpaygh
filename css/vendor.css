@@ -32,5 +32,45 @@
   background-position:center;
   background-size: cover;
 
+
+}
+
+.info h4{
+  color: white;
+  font-weight: bold;
+  padding-top: 15%;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.info h6{
+  color: white;
+  font-size: normal;
+  padding-right: 70%;
+  line-height: 2.0;
+
 }
 /*app*/
+
+/*vendor*/
+.intro{
+  height: 400px;
+  padding-top: 5%;
+}
+
+.fa {
+  padding-left: 30%;
+}
+
+.first{
+  padding-left: 3%;
+}
+
+.first h3{
+  font-weight: bold;
+}
+
+.second{
+  height: 300px;
+}
+/*vendor*/
