@@ -1,169 +1,119 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Arial, sans-serif;
+   font-family: "Montserrat";
+
+
+/*  font-family: Arial, sans-serif;*/
   box-sizing: border-box;
   /*background-color: rgba(116, 116, 122, 0.8);*/
 }
-.container {
-  position: fixed;
-    top:0; left: 0; right: 0;
-    z-index: 1000;
-    width:100%;
-    height: 15vh;
-    padding: 0 5%;
-    background-color: #fff;
-    box-shadow: 0 0 2.5px 0.5px #b837c4;
+
+/*navigation*/
+.nav-item a{
+  color: black;
 }
-.menu {
-    width: 100%;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-}
-.logo {
-    width: 250px;
-    cursor: pointer;
-}
-.menu ul {
-    flex: 1;
-}
-.menu ul li {
-    display: inline-block;
-    margin: 10px 20px;
-}
-.menu ul li a {
-    color: rgb(37, 25, 104);
-    font-size: 20px;
-    font-weight: 800;
-    text-decoration: none;
-}
-.button {
-  background-color: rgb(37, 25, 104);
-  border: none;
+/*navigation*/
+
+/*about styling*/
+.about{
+  padding-left:50px;
+  padding-top: 20px;
+  padding-right: 50px;
+  word-spacing: 1.0;
+
+  background-color:#ff4d4d;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 25px;
-  border-radius: 20px;
-  cursor: pointer;
-} 
-.button:hover {
-  background-color: rgb(255, 0, 132);
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 25px;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.5s ease-in-out;
+  height: 400px;
 }
-main {
-    /*background-color: rgba(13, 163, 222, 0.8);*/
-    min-height: 100vh;
-    width: auto;
-    margin-top: 100px;
-    z-index: -1;
-}
-.first-section {
-    width:90%;
-    height: 15vh;
-    margin: 50px auto;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.left {
-  margin-top: 280px;
-  padding: 20px;
-}
-.buy-and-sell {
-  margin-top: 70px;
-  padding: 180px;
-}
-.buy-and-sell img {
-  margin-top: 80px;
-  border-radius: 40px;
-}
-.left h3 {
-  font-weight: 800;
-  margin: 10px auto;
-  font-size: 35px;
-}
-.left p {
-  margin: 20px auto;
-  font-size: 25px;
-  font-weight: 300;
-  padding: 5px auto;
-}
-.left button {
-  margin: 20px auto;
-}
-.buy-and-sell img {
-  margin-top: 200px;
-  width: 250px;
-  cursor: pointer;
-}
-.second-section {
-  width:100%;
-  height: 10vh;
-  margin: 460px auto;
-  padding: 0;
-}
-.cover {
-  height: 10vh;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  box-shadow: 0 0 2.5px 0.5px #b837c4;
-}
-.cover h3 {
-  font-weight: 800;
-  margin: 10px auto;
-  font-size: 35px;
-  text-transform: uppercase;
-}
-.inner {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width:80%;
-  height: 10vh;
-  margin: 50px auto;
-  padding: 10px;
-}
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-.hover-underline-animation {
-  display: inline-block;
-  position: relative;
-  color: rgba(199, 166, 196, 0.8);
+/*about styling*/
+
+/*content*/
+.content{
+  background-color: yellow;
+  height: 600px;
+  padding-top: 17px;
+
+
 }
 
-.hover-underline-animation:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(199, 166, 196, 0.8);
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+.btn-primary {
+  margin-bottom: 5%;
 }
 
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+.action {
+  height: 430px;
+  background-color: white;
+  padding-top: 2%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding-left: 10%;
 }
+.form-label {
+  font-weight: bold;
+}
+
+form .form-select{
+  width: 80%;
+/*  margin-top:2% ;*/
+}
+
+input[type=number]{
+/*  margin-bottom: 15px;*/
+  width: 80%;
+}
+
+.submit {
+  width: 80%;
+}
+/*content*/
+
+/*payment*/
+.payment {
+  background-color:#3399ff;
+  height: 600px;
+  padding-top:2%;
+   font-family: "Montserrat";
+
+}
+
+.payment h3{
+  color: white;
+  font-weight: bold;
+}
+
+.payment h5 {
+  padding-bottom: 2%;
+  padding-left: 20%;
+  font-size: 13px;
+  color: white;
+}
+/*payment*/
+
+/*starting*/
+.starting{
+  background-color: white;
+  height: 250px;
+}
+
+.starting h3{
+  color: black;
+  font-weight: bold;
+  padding-top: 2%;
+}
+
+.starting h5 {
+  padding-bottom: 2%;
+  padding-left: 20%;
+  font-size: 13px;
+  color: black;
+}
+
+.account{
+  width: 20%;
+  margin-left: 30%;
+}
+
+/*starting*/
+

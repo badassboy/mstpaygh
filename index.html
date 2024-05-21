@@ -1,77 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Dashboard</title>
     <link rel="stylesheet" href="css/style.css"/>
+
+    <!-- Google fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+  <!-- fontaswesome -->
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.css">
+
 </head>
 <body>
 
-  <div class="container">
-      <div class="menu">
-        <img src="images/logos/mstpay1.png" class="logo">
-        <ul>
-            <li><a class="hover-underline-animation" href="index.html" id="home">Home</a></li>
-            <li><a class="hover-underline-animation" href="#" id="about">About Us</a></li>
-            <li><a class="hover-underline-animation" href="#" id="home">Buy & Sell</a></li>
-            <li><a class="hover-underline-animation" href="#" id="home">Contact</a></li>
-        </ul>
-        <a class="hover-underline-animation" href="login.html" style="color: rgb(37, 25, 104); font-size: 23px; font-weight: 800;text-decoration: none;">Login</a>
+ 
+
+    <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Create an offer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">wallet</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" href="vendor.html">Become a vendor</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+
+         <li class="nav-item">
+          <a class="nav-link" href="sign-up.html">Register</a>
+        </li>
+        
+       
+      </ul>
+
+     
+
     </div>
   </div>
-    <main>
-        <section class="first-section">
+</nav>
+<!-- end of navbar -->
+     
+  
+
+    <div class="container-fluid content">
+       
             
-            <div class="left">
-                <h3>Trade Bitcoins on M$TPAY</h3>
-                <p>
+
+                <h3 class="text-center">Trade Bitcoins on M$TPAY</h3>
+                <p class="text-center">
                     Connect to  millions of people just like you on everyone's favorite peer-to-peer platform to Trade Crypto.
                 </p>
 
-                <a href="/user/user settings.html">
-                    <button class="button">Let's Get Started</button>
-                </a>
+                <br>
 
-            </div>
+                <div class="container action">
+                    <div class="row">
+                         <div class="col-sm-4">
+                             <button type="button" class="btn btn-primary">Buy</button>
+                             <button type="button" class="btn btn-primary">Sell</button>
+                         </div>
+                        
+                        
+                    </div>
+
+                    <form method="post">
+                        <div class="mb-3">
+                            <select class="form-select" aria-label="Default select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                     <small>1BTC = 957,109ghs</small> 
+                        </div>
+                       
+                   
+                     <!-- item to buy -->
+
+                     <!-- paywith -->
+                     <div class="mb-3">
+                        <label class="form-label">Pay with</label>
+                      <select class="form-select" aria-label="Default select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>  
+                     </div>
+                    
+
+                     <!-- pay with -->
+                     <div class="mb-3">
+                        <label class="form-label">I want to spend</label>
+                     <input type="number" min="10" step="any" class="form-control"  placeholder="Enter amount">
+                     <small>Minimium amount is $10</small>
+                     <br>
+                     <br>
+
+                    
+                      <button class="btn btn-primary submit" type="button">Button</button>
+                      <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                   
+                     </div>
+                    
+                    </form>
+
+                   
+
+
+
+
+
+
+                    
+                </div>
+
+              <!--   <a href="/user/user settings.html">
+                    <button class="button">Let's Get Started</button>
+                </a> -->
+
             
-            <div class="buy-and-sell">
+            
+           <!--  <div class="buy-and-sell">
                 <img src="images/background/trading.jpg">
                 
-            </div>
+            </div> -->
             
-        </section>
+      
 
-        <section class="contact-section">
-            
-        </section>
-    </main>
+       
+    </div>
 
-    <footer>
+    <div class="container-fluid about">
 
-        <section class="second-section" id="about">
-            <div class="cover">
+
+     
                 <h3>About Us</h3>
-            </div>
-            <div class="inner">
-                <div class="left-1">
-                    <p>
-                        "MSTPAY" is registered trademark of M$TPAY. Copyright 2024 M$TPAY. All 
-                        Rights Reserved. MSTPAY has no relation to MoneyGram, Western Union, Payoneer, WorldRemit, Paxum, 
-                        Paypal, Amazon, OkPay, Payza, Walmart, Reloadit,Perfect Money, Google Wallet, BlueBird,
-                        Serve, Square Cash, NetSpend, Chase QuickPay, Skrill, Vanilla, MyVanilla, OneVanilla, Neteller,
-                        Venmo, Apple, ChimpChange or any other payment method. We make no claims
-                        about being supported by or supporting these services. their respective wordmarks and 
-                        trademarks belong to them alone.
-                        Official mailing address: P.O. Box Lakeside
-                    </p>
+                <h3>Welcome to Mstpay</h3>
+                <p>Founded in the heart of Ghana, Mstpay is dedicated to revolutionizing the way businesses and individuals handle transactions. As a premier payment gateway, we strive to provide seamless, secure, and efficient payment solutions that cater to the unique needs of the Ghanaian market and beyond.</p>
+
+                <h5>Our Mission</h5>
+                <p>At Mstpay, our mission is to simplify the payment process for businesses and consumers alike. We aim to build trust through reliable services, fostering financial inclusion and promoting digital payment adoption across Ghana.</p>
+
+                <h5>Our Vision</h5>
+                <p>We envision a world where transactions are effortless and accessible to everyone. By leveraging cutting-edge technology and a deep understanding of local market needs, we aspire to be the leading payment gateway in Ghana, connecting people and businesses through innovative payment solutions.</p>
+
+        </div>
+
+        <div class="container-fluid payment">
+
+             <h3 class="text-center">Many ways to sell and buy bitcon</h3>
+             <h5>Explore our Marketplace and start trading with your favorite payment methods or discover something new.</h5>
+
+              <div class="row">
+                <div class="col">
+                 <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
                 </div>
-    
-            </div>
+                </div>
+                <div class="col">
+                 <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
 
-        </section>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+                </div>
 
-    </footer>
+                <div class="col">
+                 <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <br>
+
+   <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                  </div>
+                </div>
+    </div>
+  </div>
+              
+
+    </div>
+    <!-- end of payment -->
+
+    <!-- getting started -->
+    <div class="container-fluid starting">
+         <h3 class="text-center">Many ways to sell and buy bitcon</h3>
+             <h5>Explore our Marketplace and start trading with your favorite payment methods or discover something new.</h5>
+
+         <button type="button" class="btn btn-primary account">Create your account</button> 
+
+
+    </div>
+
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 </html>
