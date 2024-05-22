@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+   font-family: "Montserrat";
+
+
+/*  font-family: Arial, sans-serif;*/
+  box-sizing: border-box;
+  /*background-color: rgba(116, 116, 122, 0.8);*/
+}
+
+/*navigation*/
+.nav-item a{
+  color: #000000;
+  font-weight: normal;
+}
+
+/*navigation*/
+
+/*content*/
+.content{
+  background-color:#3399ff;
+  height: 650px;
+  padding-top: 17px;
+}
+
+.content h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.btn-primary {
+  margin-bottom: 5%;
+}
+
+.action {
+  height: 500px;
+  background-color: white;
+  padding-top: 2%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding-left: 10%;
+}
+.form-label {
+  font-weight: bold;
+}
+
+form .form-select{
+  width: 80%;
+/*  margin-top:2% ;*/
+}
+
+input[type=number]{
+/*  margin-bottom: 15px;*/
+  width: 80%;
+}
+
+#exampleFormControlTextarea1{
+  width: 80%;
+}
+
+.submit {
+  width: 80%;
+}
